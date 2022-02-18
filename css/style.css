@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    font-size: 16px;
+    line-height: 160%;
+    font-style: normal;
+    font-weight: normal;
+    color: #424551;
+}
+
+.figma, .header {
+    width: 810px;
+}
+
+ul.list {
+    margin-bottom: 48px;
+}
+
+li.item-list {
+    background: url(../img/check.png) 0 4px no-repeat;
+    padding-left: 32px;
+    width: 390px;
+    margin-left: 0;
+    margin-bottom: 12px;
+}
+
+.item-list:last-child {
+    margin: 0;
+}
+
+.who-text {
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.why-text {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 26px;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    height: 44px;
+    padding: 0px 32px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #FF3F3A;
+    height: 44px;
+    padding: 0px 32px;
+    color: #FF3F3A;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.name {
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.name::after {
+    content: " ";
+    display: block;
+    height: 1px;
+    background: #333333;
+    width: 65px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+
